@@ -31,6 +31,9 @@ namespace Eva_Online.Forms
         {
             this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonExit = new System.Windows.Forms.Button();
+            this.buttonRight = new System.Windows.Forms.Button();
+            this.buttonLeft = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.labelQuestionNumber = new System.Windows.Forms.Label();
             this.labelQuestion = new System.Windows.Forms.Label();
@@ -41,9 +44,6 @@ namespace Eva_Online.Forms
             this.radioButtonAnswer3 = new System.Windows.Forms.RadioButton();
             this.radioButtonAnswer4 = new System.Windows.Forms.RadioButton();
             this.buttonSubmit = new System.Windows.Forms.Button();
-            this.buttonExit = new System.Windows.Forms.Button();
-            this.buttonRight = new System.Windows.Forms.Button();
-            this.buttonLeft = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +59,43 @@ namespace Eva_Online.Forms
             this.groupBox1.Size = new System.Drawing.Size(800, 85);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            // 
+            // buttonExit
+            // 
+            this.buttonExit.BackColor = System.Drawing.Color.White;
+            this.buttonExit.BackgroundImage = global::Eva_Online.Properties.Resources.Image_Exit;
+            this.buttonExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonExit.Location = new System.Drawing.Point(724, 12);
+            this.buttonExit.Name = "buttonExit";
+            this.buttonExit.Size = new System.Drawing.Size(70, 70);
+            this.buttonExit.TabIndex = 3;
+            this.buttonExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.buttonExit.UseVisualStyleBackColor = false;
+            // 
+            // buttonRight
+            // 
+            this.buttonRight.BackColor = System.Drawing.Color.White;
+            this.buttonRight.BackgroundImage = global::Eva_Online.Properties.Resources.Image_Right;
+            this.buttonRight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonRight.Location = new System.Drawing.Point(88, 12);
+            this.buttonRight.Name = "buttonRight";
+            this.buttonRight.Size = new System.Drawing.Size(70, 70);
+            this.buttonRight.TabIndex = 2;
+            this.buttonRight.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.buttonRight.UseVisualStyleBackColor = false;
+            // 
+            // buttonLeft
+            // 
+            this.buttonLeft.AutoSize = true;
+            this.buttonLeft.BackColor = System.Drawing.Color.White;
+            this.buttonLeft.BackgroundImage = global::Eva_Online.Properties.Resources.Image_Left;
+            this.buttonLeft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonLeft.Location = new System.Drawing.Point(6, 12);
+            this.buttonLeft.Name = "buttonLeft";
+            this.buttonLeft.Size = new System.Drawing.Size(70, 70);
+            this.buttonLeft.TabIndex = 1;
+            this.buttonLeft.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.buttonLeft.UseVisualStyleBackColor = false;
             // 
             // labelQuestionNumber
             // 
@@ -149,43 +186,6 @@ namespace Eva_Online.Forms
             this.buttonSubmit.TabIndex = 17;
             this.buttonSubmit.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonSubmit.UseVisualStyleBackColor = false;
-            // 
-            // buttonExit
-            // 
-            this.buttonExit.BackColor = System.Drawing.Color.White;
-            this.buttonExit.BackgroundImage = global::Eva_Online.Properties.Resources.Image_Exit;
-            this.buttonExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonExit.Location = new System.Drawing.Point(724, 12);
-            this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(70, 70);
-            this.buttonExit.TabIndex = 3;
-            this.buttonExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.buttonExit.UseVisualStyleBackColor = false;
-            // 
-            // buttonRight
-            // 
-            this.buttonRight.BackColor = System.Drawing.Color.White;
-            this.buttonRight.BackgroundImage = global::Eva_Online.Properties.Resources.Image_Right;
-            this.buttonRight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonRight.Location = new System.Drawing.Point(88, 12);
-            this.buttonRight.Name = "buttonRight";
-            this.buttonRight.Size = new System.Drawing.Size(70, 70);
-            this.buttonRight.TabIndex = 2;
-            this.buttonRight.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.buttonRight.UseVisualStyleBackColor = false;
-            // 
-            // buttonLeft
-            // 
-            this.buttonLeft.AutoSize = true;
-            this.buttonLeft.BackColor = System.Drawing.Color.White;
-            this.buttonLeft.BackgroundImage = global::Eva_Online.Properties.Resources.Image_Left;
-            this.buttonLeft.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonLeft.Location = new System.Drawing.Point(6, 12);
-            this.buttonLeft.Name = "buttonLeft";
-            this.buttonLeft.Size = new System.Drawing.Size(70, 70);
-            this.buttonLeft.TabIndex = 1;
-            this.buttonLeft.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.buttonLeft.UseVisualStyleBackColor = false;
             // 
             // QuestionForm
             // 
