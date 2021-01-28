@@ -8,16 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Eva_Online
+namespace Eva_Online.Forms
 {
-    public partial class Form1 : Form
+    public partial class AdministrationForm : Form
     {
-        public Form1()
+        public AdministrationForm()
         {
             InitializeComponent();
-            //sakfew
-            //iashn cf09upashfcjasdfasdf
         }
-
     }
 }
