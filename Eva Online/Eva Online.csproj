@@ -66,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\QuestionForm.resx">
       <DependentUpon>QuestionForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,6 +106,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Image_Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\html_background_2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
