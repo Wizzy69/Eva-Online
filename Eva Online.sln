@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eva Online", "Eva Online\Eva Online.csproj", "{CF62C83E-E56B-4C57-BC52-CC1C0EA969AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF62C83E-E56B-4C57-BC52-CC1C0EA969AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF62C83E-E56B-4C57-BC52-CC1C0EA969AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF62C83E-E56B-4C57-BC52-CC1C0EA969AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF62C83E-E56B-4C57-BC52-CC1C0EA969AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {016A63F5-53B1-422C-97A0-58726B3086D1}
+	EndGlobalSection
+EndGlobal
