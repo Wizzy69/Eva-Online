@@ -9,7 +9,6 @@ namespace Eva_Online.Forms
         public AdministrationForm()
         {
             InitializeComponent();
-            sqlConnection.Start();
 
             this.Load += (sender, e) => FormLoad();
 
