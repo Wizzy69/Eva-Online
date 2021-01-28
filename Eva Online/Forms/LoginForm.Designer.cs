@@ -1,5 +1,5 @@
 ﻿
-namespace Eva_Online
+namespace Eva_Online.Forms
 {
     partial class Form1
     {
