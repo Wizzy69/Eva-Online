@@ -15,6 +15,27 @@ namespace Eva_Online.Forms
         public QuestionForm()
         {
             InitializeComponent();
+            this.Load += (sender, e) => OnLoad();
+
+        }
+        public void OnLoad()
+        {
+            buttonExit.Click += (sender, e) =>
+            {
+
+            };
+
+            timer1.Tick += (sender, e) =>
+            {
+                labelTimer.Text = DateTime.Now.ToLongTimeString();
+            };
+
+
+        }
+
+        private void QuestionForm_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
         }
     }
 }
