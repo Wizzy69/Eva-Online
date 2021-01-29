@@ -73,6 +73,16 @@ namespace Eva_Online.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Image_Background {
+            get {
+                object obj = ResourceManager.GetObject("Image_Background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Image_Check {
             get {
                 object obj = ResourceManager.GetObject("Image_Check", resourceCulture);

@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>list_tasks_icon_179521.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code\sqlConnection.cs" />
     <Compile Include="Forms\AdministrationForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,13 +68,25 @@
     <Compile Include="Forms\QuestionForm.Designer.cs">
       <DependentUpon>QuestionForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ShowAnswerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ShowAnswerForm.Designer.cs">
+      <DependentUpon>ShowAnswerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AdministrationForm.resx">
+      <DependentUpon>AdministrationForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\QuestionForm.resx">
       <DependentUpon>QuestionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ShowAnswerForm.resx">
+      <DependentUpon>ShowAnswerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -96,10 +112,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Image_Left.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Image_Right.png" />
+    <None Include="Resources\html_background_2.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Image_Check.png" />
@@ -108,7 +121,16 @@
     <None Include="Resources\Image_Exit.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\html_background_2.jpg" />
+    <None Include="Resources\Image_Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image_Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image_Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="list_tasks_icon_179521.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

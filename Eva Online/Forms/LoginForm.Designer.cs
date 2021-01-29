@@ -42,8 +42,9 @@ namespace Eva_Online.Forms
             this.textBoxElevPassword = new System.Windows.Forms.TextBox();
             this.buttonLoginAdmin = new System.Windows.Forms.Button();
             this.buttonLoginElev = new System.Windows.Forms.Button();
-            this.pictureBoxWallpaper = new System.Windows.Forms.PictureBox();
             this.buttonExit = new System.Windows.Forms.Button();
+            this.pictureBoxWallpaper = new System.Windows.Forms.PictureBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWallpaper)).BeginInit();
             this.SuspendLayout();
             // 
@@ -132,6 +133,7 @@ namespace Eva_Online.Forms
             this.textBoxAdminPassword.Name = "textBoxAdminPassword";
             this.textBoxAdminPassword.Size = new System.Drawing.Size(173, 20);
             this.textBoxAdminPassword.TabIndex = 8;
+            this.textBoxAdminPassword.UseSystemPasswordChar = true;
             // 
             // textBoxElevUsername
             // 
@@ -146,6 +148,7 @@ namespace Eva_Online.Forms
             this.textBoxElevPassword.Name = "textBoxElevPassword";
             this.textBoxElevPassword.Size = new System.Drawing.Size(170, 20);
             this.textBoxElevPassword.TabIndex = 10;
+            this.textBoxElevPassword.UseSystemPasswordChar = true;
             // 
             // buttonLoginAdmin
             // 
@@ -169,6 +172,17 @@ namespace Eva_Online.Forms
             this.buttonLoginElev.Text = "Login";
             this.buttonLoginElev.UseVisualStyleBackColor = false;
             // 
+            // buttonExit
+            // 
+            this.buttonExit.BackColor = System.Drawing.Color.White;
+            this.buttonExit.BackgroundImage = global::Eva_Online.Properties.Resources.Image_Exit;
+            this.buttonExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonExit.Location = new System.Drawing.Point(956, 564);
+            this.buttonExit.Name = "buttonExit";
+            this.buttonExit.Size = new System.Drawing.Size(75, 77);
+            this.buttonExit.TabIndex = 14;
+            this.buttonExit.UseVisualStyleBackColor = false;
+            // 
             // pictureBoxWallpaper
             // 
             this.pictureBoxWallpaper.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -181,22 +195,21 @@ namespace Eva_Online.Forms
             this.pictureBoxWallpaper.TabIndex = 13;
             this.pictureBoxWallpaper.TabStop = false;
             // 
-            // buttonExit
+            // comboBox1
             // 
-            this.buttonExit.BackColor = System.Drawing.Color.White;
-            this.buttonExit.BackgroundImage = global::Eva_Online.Properties.Resources.Image_Exit;
-            this.buttonExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonExit.Location = new System.Drawing.Point(956, 564);
-            this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(75, 77);
-            this.buttonExit.TabIndex = 14;
-            this.buttonExit.UseVisualStyleBackColor = false;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(340, 433);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(163, 21);
+            this.comboBox1.TabIndex = 15;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1043, 653);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonLoginElev);
             this.Controls.Add(this.buttonLoginAdmin);
@@ -238,6 +251,7 @@ namespace Eva_Online.Forms
         private System.Windows.Forms.Button buttonLoginElev;
         private System.Windows.Forms.PictureBox pictureBoxWallpaper;
         private System.Windows.Forms.Button buttonExit;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 

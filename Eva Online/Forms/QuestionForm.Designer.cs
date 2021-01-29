@@ -72,23 +72,29 @@ namespace Eva_Online.Forms
             // 
             // labelQuestion
             // 
+            this.labelQuestion.AutoEllipsis = true;
             this.labelQuestion.AutoSize = true;
-            this.labelQuestion.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelQuestion.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelQuestion.Location = new System.Drawing.Point(55, 127);
             this.labelQuestion.Name = "labelQuestion";
-            this.labelQuestion.Size = new System.Drawing.Size(424, 33);
+            this.labelQuestion.Size = new System.Drawing.Size(306, 23);
             this.labelQuestion.TabIndex = 3;
             this.labelQuestion.Text = "The Question will be displayed here";
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
             // 
             // labelTimer
             // 
             this.labelTimer.AutoSize = true;
             this.labelTimer.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTimer.Location = new System.Drawing.Point(709, 85);
+            this.labelTimer.Location = new System.Drawing.Point(692, 92);
             this.labelTimer.Name = "labelTimer";
-            this.labelTimer.Size = new System.Drawing.Size(52, 19);
+            this.labelTimer.Size = new System.Drawing.Size(99, 19);
             this.labelTimer.TabIndex = 12;
-            this.labelTimer.Text = "00 : 00";
+            this.labelTimer.Text = "Time left 00:00";
             // 
             // radioButtonAnswer1
             // 
