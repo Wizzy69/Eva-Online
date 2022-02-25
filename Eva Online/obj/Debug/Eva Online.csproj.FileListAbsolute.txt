@@ -21,3 +21,15 @@ D:\Stuff\Files\Visual Studio Builds\New folder\Eva Online\obj\Debug\Eva_Online.F
 D:\Stuff\Files\Visual Studio Builds\New folder\Eva Online\obj\Debug\Eva_Online.Forms.ShowAnswerForm.resources
 D:\Stuff\Files\Visual Studio Builds\New folder\Eva Online\obj\Debug\Eva_Online.Forms.QuestionForm.resources
 D:\Stuff\Files\Visual Studio Builds\New folder\Eva Online\obj\Debug\Eva Online.csprojAssemblyReference.cache
+C:\Users\Andrei\Source\Repos\Wizzy69\Eva-Online\Eva Online\bin\Debug\Eva Online.exe.config
+C:\Users\Andrei\Source\Repos\Wizzy69\Eva-Online\Eva Online\bin\Debug\Eva Online.exe
+C:\Users\Andrei\Source\Repos\Wizzy69\Eva-Online\Eva Online\bin\Debug\Eva Online.pdb
+C:\Users\Andrei\Source\Repos\Wizzy69\Eva-Online\Eva Online\obj\Debug\Eva_Online.Forms.AdministrationForm.resources
+C:\Users\Andrei\Source\Repos\Wizzy69\Eva-Online\Eva Online\obj\Debug\Eva_Online.Forms.Form1.resources
+C:\Users\Andrei\Source\Repos\Wizzy69\Eva-Online\Eva Online\obj\Debug\Eva_Online.Forms.QuestionForm.resources
+C:\Users\Andrei\Source\Repos\Wizzy69\Eva-Online\Eva Online\obj\Debug\Eva_Online.Forms.ShowAnswerForm.resources
+C:\Users\Andrei\Source\Repos\Wizzy69\Eva-Online\Eva Online\obj\Debug\Eva_Online.Properties.Resources.resources
+C:\Users\Andrei\Source\Repos\Wizzy69\Eva-Online\Eva Online\obj\Debug\Eva Online.csproj.GenerateResource.cache
+C:\Users\Andrei\Source\Repos\Wizzy69\Eva-Online\Eva Online\obj\Debug\Eva Online.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Source\Repos\Wizzy69\Eva-Online\Eva Online\obj\Debug\Eva Online.exe
+C:\Users\Andrei\Source\Repos\Wizzy69\Eva-Online\Eva Online\obj\Debug\Eva Online.pdb

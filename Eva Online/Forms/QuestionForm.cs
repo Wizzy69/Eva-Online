@@ -32,7 +32,6 @@ namespace Eva_Online.Forms
             for (int i = 1; i <= qNumber; i++)
             {
                 questions[i] = FetchData("USE Intrebari select QuestionText from QuestionDefinition where TestID = '" + testID + "' and QuestionID = '" + i + "'")[0];
-                //MessageBox.Show(questions[i]);
                 string[] answers = FetchData("USE Intrebari select Answer1,Answer2,Answer3,Answer4,CorrectAnswer from QuestionDefinition where TestID = '" + testID + "' and QuestionText = '" + questions[i] + "'");
                 this.answers.Add(questions[i], answers);
             }
